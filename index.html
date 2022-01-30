@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encríptalo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images.ico">
+</head>
+<body>
+   <h1 id = "titulo" class="titulo"> Bienvenido!</h1> 
+   
+   <main>
+    <section id="cajitaEntrada" class="cajita entrada">
+        <form action="" name="usuario">
+            <h2>Hola, estoy listo para encriptar! <br> <br></h2>
+            <span id="span">Por favor solo usa letras minusculas e ingresa las palabras sin acentos.</span>
+            <label for="entrada-texto">Texto a encriptar:</label>
+            <input class="input 1" id="textoUsuario"  type="text" placeholder="Ingresa el texto que quieres convertir acá ">
+            <input  type="button" onclick="encriptando()" id="botonEncriptar"  class="boton" type="button" value="Encriptar">
+            <input type="button" onclick="desencriptando()" id="botonDesencriptar" class="boton1" type="button" value="Desencriptar" >          
+            <input id="botonLimpiar" class="boton2" type="reset" value="Limpiar">
+        </form> 
+    </section>
+
+    <section id="cajita2" class=" cajita salida">
+        <form action="">
+            <h2>Texto encriptado:</h2>
+            <label for="salida-texto"> Resultado: </label>
+            <input class="input 2" id="textoEncriptado" name="textoEncriptado" type="text" placeholder="Aquí aparecerá tu texto encriptado" readonly>
+            <input id="botoncopiar" onclick="copiando()" class="boton" type="button" value="Copiar">
+            <input type="button" onclick="desencriptando()" id="botonDesencriptar" class="boton1" type="button" value="Desencriptar" > 
+            <input id="botonLimpiar2" class="boton2"  type="reset" value="Limpiar">
+        </form>
+    </section>
+ 
+   </main>
+   <script src="script.js"></script>
+
+   <footer>
+       <div class="contenedor">
+            <h2 class="tituloSeccion">Contacta conmigo</h2>
+        </div>
+        <div class="redesSociales">
+            <a href="https://github.com/irilislezama" class="botonGit">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+
+        <div class="contenedor">
+            <p class="copy">©Copyright 2021. <br> Proyecto realizado por Irilis Lezama para el Challenge 'Oracle ONE_Principiante en programación'</p>
+            <h3 class="negrita">
+                <i class="far fa-heart"></i>
+                Con la ayuda de  <a href="https://www.aluracursos.com/">Alura</a> <i class="far fa-heart"></i>
+            </h3>
+        </div>
+
+  </footer>
+  <script src="https://kit.fontawesome.com/48400c72b3.js" crossorigin="anonymous"></script>
+</body>
+</html>
