@@ -5,7 +5,7 @@ Proyecto realizado por para el Challenge 'Oracle ONE_Principiante en programaci�
 'Encriptalo es un proyecto realizado para participar en el Challenge Oracle One Principiante en programación. 
 
 ## Cómo funciona??
-Es capaz tambien de convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
+Es capaz de convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
 
 Por ejemplo:
 "gato" => "gaitober"
@@ -13,11 +13,11 @@ gaitober" => "gato"
 
 Las "llaves" de encriptación que utilizamos son las siguientes:
 
-La letra "e" es convertida para "enter"
-La letra "i" es convertida para "imes"
-La letra "a" es convertida para "ai"
-La letra "o" es convertida para "ober"
-La letra "u" es convertida para "ufat"
+- La letra "e" es convertida para "enter"
+- La letra "i" es convertida para "imes"
+- La letra "a" es convertida para "ai"
+- La letra "o" es convertida para "ober"
+- La letra "u" es convertida para "ufat"
 
 Requisitos:
 - Sólo funciona solo con letras minúsculas
