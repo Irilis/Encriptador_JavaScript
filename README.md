@@ -1,9 +1,10 @@
 # EncriptadorJavaScript
+
 Proyecto realizado por para el Challenge 'Oracle ONE_Principiante en programación' con Alura
-#Encríptalo
+# Encríptalo
 'Encriptalo es un proyecto realizado para participar en el Challenge Oracle One Principiante en programación. 
 
-##Cómo funciona??
+## Cómo funciona??
 Es capaz tambien de convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
 
 Por ejemplo:
@@ -25,4 +26,4 @@ Requisitos:
 
 La página tiene campos para la inserción del texto que será encriptado o desencriptado y tambien se han agreado tres botones en cada caja (para encriptar, desencriptar y limpiar)
 
-#Disfrutalo y gracias por usarlo <3
+# Disfrutalo y gracias por usarlo <3
